@@ -41,6 +41,21 @@ const changelogs: PatchNotes[] = [
             "Fixed: The glitching issue with projectlien has now been fixed.",
             "Fixed: Enemies can no longer glitch into the player."
         ]
+    },
+    {
+        version: "0.4.0p",
+        date: "2026-09-26",
+        importantMessage: "Link to the version system documentation: [No Link Yet]",
+        changes: [
+            "Changed: Version system Changed",
+            "Added: auto aim when pressing the attack button",
+            "Added: Button for Changelog",
+            "Added: Stamina System",
+            "Added: Stamina Bar",
+            "Added: Run button",
+            "Fixed: If the player leaves the play area they are teleported back to the play area.",
+            "Fixed: If more than one projectile needs to be fired the projectiles are now always fired side by side."
+        ]
     }
 ];
 
@@ -82,6 +97,8 @@ changelogs.forEach((log: PatchNotes) => {
         versionList.appendChild(button);
     }
 });
+
+buttonList[buttonList.length -1].classList.add("button-clicked");
 
 if(changelogs.length > 0){
     ShowVersion(changelogs[changelogs.length - 1]);
