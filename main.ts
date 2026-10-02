@@ -7,7 +7,7 @@ interface PatchNotes{
 
 const changelogs: PatchNotes[] = [
     {
-        version: "0.0.1 (Prototype)",
+        version: "0.0.1",
         date: "2026-09-17",  // ungefaähr 17 - 19
         
         importantMessage: "please keep in mind that the Declarations in this version are inaccurate",
@@ -21,7 +21,7 @@ const changelogs: PatchNotes[] = [
         ]
     },
     {
-        version: "0.0.2 (Prototype)",
+        version: "0.0.2",
         date: "2026-09-24",
         importantMessage: "",
         changes: [
