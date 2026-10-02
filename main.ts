@@ -44,7 +44,7 @@ const changelogs: PatchNotes[] = [
     },
     {
         version: "0.4.0p",
-        date: "2026-09-26",
+        date: "2026-10-01",
         importantMessage: "Link to the version system documentation: [No Link Yet]",
         changes: [
             "Changed: Version system Changed",
@@ -52,9 +52,20 @@ const changelogs: PatchNotes[] = [
             "Added: Button for Changelog",
             "Added: Stamina System",
             "Added: Stamina Bar",
-            "Added: Run button",
+            "Added: Sprint button",
+            "Added: Save and Load System",
             "Fixed: If the player leaves the play area they are teleported back to the play area.",
             "Fixed: If more than one projectile needs to be fired the projectiles are now always fired side by side."
+        ]
+    },
+    {
+        version: "0.4.1p",
+        date: "2026-10-02",
+        importantMessage: "",
+        changes: [
+            "Fixed: The player can no longer run if they hold down the sprint button and their stamina runs out.",
+            "Fixed: When the player stands still and presses the sprint button they no longer lose stamina.",
+            "Fixed: Save and Load System now works correctly.",
         ]
     }
 ];
