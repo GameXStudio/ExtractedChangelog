@@ -45,7 +45,7 @@ const changelogs: PatchNotes[] = [
     {
         version: "0.4.0p",
         date: "2026-10-01",
-        importantMessage: "Link to the version system documentation: [No Link Yet]",
+        importantMessage: "Link to the version system documentation [No Link Yet]",
         changes: [
             "Changed: Version system Changed",
             "Added: auto aim when pressing the attack button",
