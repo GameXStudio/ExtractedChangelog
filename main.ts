@@ -67,6 +67,18 @@ const changelogs: PatchNotes[] = [
             "Fixed: When the player stands still and presses the sprint button they no longer lose stamina.",
             "Fixed: Save and Load System now works correctly.",
         ]
+    },
+    {
+        version: "5.0.0",
+        date: "2026-10-05",
+        importantMessage: "",
+        changes: [
+            "Added: Hotbar System with a Hotbar",
+            "Added: Dropping and a Drop Button",
+            "Added: Item Pick Up with a Item Pick Up Button",
+            "Added: inventory system with a Inventory",
+            "Added: Test Items"
+        ]
     }
 ];
 
