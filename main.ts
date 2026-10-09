@@ -69,7 +69,7 @@ const changelogs: PatchNotes[] = [
         ]
     },
     {
-        version: "5.0.0",
+        version: "5.0.0p",
         date: "2026-10-05",
         importantMessage: "",
         changes: [
@@ -78,6 +78,22 @@ const changelogs: PatchNotes[] = [
             "Added: Item Pick Up with a Item Pick Up Button",
             "Added: inventory system with a Inventory",
             "Added: Test Items"
+        ]
+    },
+    {
+        version: "0.6.0p",
+        date: "2026-10-09",
+        importantMessage: "",
+        changes: [
+            "Added: ammunition and Ammo",
+            "Added: Reload Button",
+            "Added: ammunition and Ammo Label",
+            "Added: toggle for auto reload",
+            "Added: HP Bar with an Health System and now you can die and respawn",
+            "Added: Range for the auto aim on weapons",
+            "Added: Shoot Cooldown for the Player",
+            "Added: if you Die a Game Over Screen appears",
+            "Fixed: Now inventory slots are no longer highlighted when you drag an item into them."
         ]
     }
 ];
